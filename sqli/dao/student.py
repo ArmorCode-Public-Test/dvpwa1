@@ -44,4 +44,4 @@ class Student(NamedTuple):
         async with conn.cursor() as cur:
             await cur.execute(q)
 
-
+# for testing #
